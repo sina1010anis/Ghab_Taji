@@ -1,0 +1,29 @@
+body {
+    background-color: #606060;
+}
+@font-face {
+    font-family: 'IRANS';
+    src: url("../font/IRANSansWeb.ttf");
+}
+.font{
+    font-family:'IRANS' ;
+}
+#need_admin {
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: silver 1px 1px 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media all and (max-width: 500px) {
+    #need_admin {
+        display: none;
+    }
+}

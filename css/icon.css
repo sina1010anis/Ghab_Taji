@@ -1,0 +1,76 @@
+@font-face{
+    font-family: 'IRANS';
+    src: url(../font/IRANSansWeb.ttf);
+}
+#icon , #icon2 , #icon3 , #icon4{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #116792;
+    position: fixed;
+    z-index: 25555;
+    bottom: 27px;
+    left: 30px;
+    transition: 0.5s;
+
+}
+#icon{
+    z-index: 100000000000000000000000000;
+}
+#icon2{
+    left: 30px;bottom: 32px!important;
+    background-color: #ff2f2a !important;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+#icon3{
+    left: 30px;bottom: 32px!important;
+    background-color: #00beff !important;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+#icon4{
+    bottom: 32px!important;
+    left: 30px;
+    background-color: #00ff45 !important;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+#icon i , #icon2 i , #icon3 i , #icon4 i{
+    font-size: 30px;
+    color: white;
+}
+#icon:hover{
+    transform: scale(1.2);
+}
+.left120{
+    left: 120px!important;
+    opacity: 1!important;
+}
+.left30px{
+    left: 30px!important;
+    opacity: 0!important;
+}
+#need{
+    position: fixed;
+    width: 0;
+    height: 70px;
+    background-color: #ffffff;
+    bottom: 27px;
+    left: 60px;
+    z-index: 1000;
+    opacity: 0;
+    border-radius:0 20px 20px 0 ;
+    border: #6f6f6f 1px solid;
+}
+@media all and (max-width: 450px) {
+    #ssm{
+        display: none;
+    }
+}

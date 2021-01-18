@@ -1,0 +1,314 @@
+@font-face{
+    font-family: 'IRANS';
+    src: url(../font/IRANSansWeb.ttf);
+}
+body{
+    background-color: #f9f9f9;
+}
+.row_S{
+    background-color: #ffffff;
+}
+#container{
+    height: 50px;
+}
+#row{
+    background-color: white;
+    height: 100%;
+}
+#col_left{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+#col_right{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+#col_left a:nth-child(1){
+    position: absolute;
+    top: 14%;
+    left: 50px;
+    font-size: 15px;
+    margin-top: 0!important;
+    overflow: hidden;
+    font-family: 'IRANS';
+    text-decoration: none;
+    color: #9a9a9a;
+    border: #d6d6d6 1px solid;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+#col_left a:nth-child(2){
+    position: absolute;
+    margin-top: 0!important;
+    top: 14%;
+    left: 147px;
+    font-size: 15px;
+    font-family: 'IRANS';
+    text-decoration: none;
+    color: #9a9a9a;
+    border: #d6d6d6 1px solid;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+#col_left a:nth-child(1)::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+    left: 0;
+    width: 0;
+    height: 100%;
+    opacity: 1;
+    background-color: #d6d6d6;
+}
+#col_left a:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+    left: 0;
+    width: 0;
+    height: 100%;
+    opacity: 1;
+    border-radius: 5px;
+    background-color: #d6d6d6;
+}
+#col_left a:nth-child(1):hover::before{
+    width: 100%;
+    opacity: 1;
+
+    z-index: -1;
+}
+#col_left a:nth-child(1):hover{
+    color: white;
+    z-index: 3;
+    border: white 1px solid;
+}
+#col_left a:nth-child(2):hover::before{
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+#col_left a:nth-child(2):hover{
+    color: white;
+    z-index: 3;
+    border: white 1px solid;
+}
+#col_right .fa-shopping-bag{
+    right: 25px;
+    font-size: 25px;
+    margin-top: -11px!important;
+    position: absolute;
+    line-height: 50px;
+    color: #a7a7a7;
+}
+#col_right .fa-shopping-bag:hover{
+    animation: 1s ani infinite linear;
+    color: #d6d6d6;
+}
+#col_right #sum_number{
+    position: absolute;
+    right: 60px;
+    top: 2px;
+    padding: 2px;
+    border: #ff695d 1px solid;
+    text-decoration: none;
+    color: #c1c1c1;
+    border-radius: 500px;
+}
+#view_basket{
+    display: none;
+    width: 420px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px #6d6d6d solid ;
+    z-index:99999999999999;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+#view_basket::after{
+    content: 'برای خرید نهایی باید وارد پنل کاربری شوید';
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    font-family: 'IRANS';
+    font-size: 12px;
+    width: 100%;
+    color: white;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #fe8883;
+}
+#view_basket li{
+    width: 100%;
+    height: 80px;
+    list-style: none;
+    margin-top: 5px;
+    border-bottom: #949494 1px solid;
+    border-top: #949494 1px solid;
+}
+#view_basket img{
+    float: right;
+    width: 70px;
+    height: 100%;
+    line-height: 80px;
+}
+#view_basket p{
+    float: right;
+    margin: 0 10px;
+    font-family: 'IRANS';
+    font-size: 11px;
+    padding: 0;
+    line-height: 80px;
+}
+.fa-trash-alt{
+    line-height: 80px;
+}
+@keyframes ani {
+    0%{
+        transform: rotate(20deg);
+    }
+    25%{
+        transform: rotate(-20deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: rotate(20deg);
+    }
+}
+#need_basket{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    z-index: 20;
+    top: 0;
+    position: fixed;
+    opacity: 0.8;
+    cursor: pointer;
+    display: none;
+
+}
+#alert_delete{
+    display:none ;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    background-color: white;
+    border: #00b3fe 2px solid;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 10000000000;
+}
+#alert_delete p{
+    text-align: center;
+    font-family: 'IRANS';
+    color: #393939;
+}
+#alert_delete #yes{
+    margin-right:90px;
+    margin-left:90px;
+    border-radius: 5px;
+    background-color: #00b3fe;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: 'IRANS';
+    color: whitesmoke;
+    display: block;
+}
+#alert_delete #yes:hover{
+    margin-right:70px;
+    margin-left:70px;
+}
+#alert_delete #no{
+    margin-right:50px;
+    margin-left:50px;
+    border-radius: 5px;
+    background-color: #fe6560;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    color: whitesmoke;
+    display: block;
+}
+#alert_delete #no:hover{
+    margin-right:70px;
+    margin-left:70px;
+}
+.fa-exclamation-circle{
+    font-size: 50px;
+    color: #00b3fe;
+    display: block;
+    text-align: center;
+}
+@media all and (max-width: 450px){
+    #view_basket::after{
+        font-size: 7px;
+        padding: 2px;
+    }
+    .fa-trash-alt{
+        line-height: 50px;
+    }
+    #view_basket img{
+        height: 100%;
+        width: 50px;
+    }
+    #view_basket p{
+        line-height: 51px;
+        font-size: 7px;
+        margin: 0 5px;
+
+    }
+    #view_basket li{
+        height: 51px;
+    }
+    #view_basket{
+        width: 250px;
+        height: 175px;
+    }
+    #col_right #sum_number{
+        right: 45px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    #col_right .fa-shopping-bag{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #container{
+        height: 30px;
+    }
+    #col_left a:nth-child(1){
+        font-size: 10px;
+        top: 14%;
+        left: 19px;
+        padding: 3px 10px;
+    }
+    #col_left a:nth-child(2){
+        position: absolute;
+        top: 14%;
+        font-size: 10px;
+        left: 72px;
+        width: 55px;
+        padding: 3px 2px;
+    }
+}

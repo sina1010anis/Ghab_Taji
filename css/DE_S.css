@@ -1,0 +1,478 @@
+@font-face {
+    font-family: 'IRANS';
+    src: url("../font/IRANSansWeb.ttf");
+}
+#part_top{
+    margin-top:20px ;
+    width: 100%;
+    height: auto;
+    float: right;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    border: silver 1px solid;
+    border-radius: 10px;
+}
+#col_left_DE_A{
+    width: 49%;
+    height: auto;
+    float: left;
+}
+#col_left_DE_A #F_img{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+}
+#col_left_DE_A #F_img img{
+    display: block;
+    margin: auto;
+}
+#col_left_DE_A #G-img{
+    width: 100%;
+    margin-top: 10px;
+}
+#col_left_DE_A #G-img img{
+    width: 140px;
+    height: 160px;
+}
+#col_right_DE_A{
+    width: 49%;
+    height: auto;
+    float: right;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#col_right_DE_A #name_P{
+    width: 100%;
+    text-align: right;
+    font-family: 'IRANS';
+    color: #343434;
+}
+#col_right_DE_A h5{
+    text-align: right;
+    margin:10px 25px ;
+    direction: rtl;
+    padding: 5px;
+    background-color: #fe6056;
+    border-radius: 5px;
+    font-family: 'IRANS';
+    color: #ffffff;
+}
+#col_right_DE_A h4{
+    text-align: right;
+    margin: 10px 25px;
+    padding: 5px;
+    background-color: #47fe5d;
+    border-radius: 5px;
+    direction: rtl;
+    font-family: 'IRANS';
+    color: #666666;
+}
+#col_right_DE_A ul li:nth-child(1){
+    text-align: right;
+    list-style: none;
+    font-family: 'IRANS';
+    margin-right:0 ;
+    font-size: 18px;
+    color: #141414;
+}
+#col_right_DE_A p{
+    text-align: right;
+    list-style: none;
+    font-family: 'IRANS';
+    margin-right:20px ;
+    font-size: 16px;
+    color: #535353;
+}
+#col_right_DE_A ul li{
+    text-align: right;
+    list-style: none;
+    font-family: 'IRANS';
+    font-size: 15px;
+    direction: rtl;
+    color: #2f2f2f;
+    margin-right: 25px;
+}
+#part_sefaresh{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+    float: right;
+    margin-top: 20px
+}
+#label{
+    font-family: 'IRANS';
+}
+#part_sefaresh input{
+    float: left;
+    outline: #00fe37;
+    width: 50px;
+    font-family: 'IRANS';
+    border: none;
+    font-size: 15px;
+}
+#part_sefaresh div{
+    cursor: pointer;
+    margin: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: 'IRANS';
+    float: right;
+    padding: 5px 25px;
+    background-color: #00fe37;
+
+}
+#text_com{
+    text-decoration: none;
+    color: #464646;
+    cursor: pointer;
+    overflow-x: hidden;
+    border-bottom: #333333 1px solid;
+    width: 90%;
+    font-family: 'IRANS';
+    float: right;
+    text-align: right;
+    padding-bottom: 20px;
+    top: 10px;
+    background-color: #f9f9f9;
+    margin-top: 5px;
+}
+#text_com:hover{
+    color: #001019;
+}
+#nzarat{
+    width: 100%;
+    overflow-y: hidden;
+    height:auto;
+    overflow-x: hidden;
+    float: right;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#nzarat ul li{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+    overflow-y: hidden;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px #606060 solid;
+    list-style: none;
+}
+#nzarat ul li #photo{
+    width: 100px;
+    height: 100%;
+    color: #00b3fe;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nzarat ul li #photo .fa-user ,#nzarat ul li #photo .fa-user-tie{
+    font-size: 30px;
+}
+#nzarat ul li h4{
+    float: right;
+    margin: 5px auto;
+    display: inline-block;
+    font-family: 'IRANS';
+    color: #5c5c5c;
+}
+#nzarat ul li h5{
+    text-align: left;
+    margin: 5px auto;
+    display: inline-block;
+    font-family: 'IRANS';
+    color: #5c5c5c;
+}
+#nzarat ul li p{
+    direction: rtl!important;
+    text-align: right;
+
+}
+.ul{
+    margin: 0;
+    padding: 0;
+}
+#send_pm{
+    width: 100%;
+    height: auto;
+    float: right;
+}
+#send_pm h3{
+    color: #464646;
+    text-align: right;
+    font-family: 'IRANS';
+}
+#send_pm textarea{
+    width: 100%;
+    min-height: 100px;
+    height: 100px;
+    margin-top: 10px;
+    font-family: 'IRANS';
+    font-size: 15px;
+    direction: rtl;
+    text-align: right;
+    max-height: 300px;
+    border-radius: 10px;
+    outline: none;
+    max-width: 100%;
+    min-width: 100%;
+    border: silver 1px solid;
+}
+#name_user , #captcha_pm_user{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: silver 1px solid;
+    font-family: 'IRANS';
+    font-size: 15px;
+    direction: rtl;
+    text-align: right;
+    max-height: 300px;
+    border-radius: 10px;
+    outline: none;
+    max-width: 100%;
+    min-width: 100%;
+}
+#send_pm a{
+    font-family: 'IRANS';
+    font-size: 15px;
+    padding:5px 25px ;
+    display: inline-block;
+    border-radius: 5px;
+    color: #3e3e3e;
+    background-color: #00fe37;
+    transition: 0.5s;
+ }
+#send_pm a:hover{
+    box-shadow: silver 1px 1px 5px;
+}
+#err_W{
+    display: none;
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    border: red 1px solid;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%) ;
+    z-index: 1000;
+}
+#ok_W{
+    display: none;
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    border: #18ff00 1px solid;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%) ;
+    z-index: 1000;
+}
+#ok_W a{
+    font-family: 'IRANS';
+}
+.fa-check-circle{
+    font-size: 50px;
+    color: #78fe73;
+}
+#err_W h3 , #ok_W h3{
+    font-size: 15px;
+    font-family: 'IRANS';
+    color: #343434;
+}
+#ok_W #btn_err{
+    cursor: pointer;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: #9bff81;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#err_W #btn_err{
+    cursor: pointer;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: #ff645f;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#need_err{
+    width: 100%;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    opacity: 0.5;
+    background-color: black;
+}
+.fa-times-circle{
+    font-size: 50px;
+    color: #ff645f;
+}
+.fa-times{
+    color: red;
+    float: right;
+}
+#new_pm{
+    float: left;
+    transition: 0.5s;
+    font-family: 'IRANS';
+    padding: 10px 20px;
+    background-color: #fe6056;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+#new_pm:hover{
+    box-shadow: silver 1px 1px 5px;
+}
+#need_pm_DE_S{
+    width: 500px;
+    display: none;
+    height: auto;
+    z-index: 10000000;
+    padding: 10px;
+    border-radius:10px ;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    top:50% ;
+    left:50% ;
+    transform: translate(-50% , -50%);
+    background-color: #ffffff;
+    position: fixed;
+}
+.fa-times{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-times:hover{
+    transform: rotate(180deg);
+}
+hr{
+    opacity:0;
+}
+.ul li{
+    padding: 10px;
+    box-sizing: border-box;
+}
+#need_pm_ok{
+    width: 300px;
+    height: 200px;
+    display: none;
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 10px ;
+    box-sizing: border-box;
+    z-index: 100000000;
+    border: #00b3fe 1px solid;
+    border-radius: 10px;
+    transform: translate(-50% , -50%);
+}
+#btn_F_pm{
+    background-color: #00b3fe;
+    margin-right: 100px;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.p{
+    margin: 0;
+    padding: 0;
+}
+.fa-smile-wink{
+    color: #00b3fe;
+    font-size: 50px;
+}
+@media all and (max-width: 450px){
+    .size_font{
+        font-size: 10px!important;
+    }
+    #need_pm_DE_S{
+        width: 300px;
+    }
+    #new_pm{
+        padding: 5px 10px;
+        font-size:12px ;
+    }
+    #col_right_DE_A #name_P{
+        font-size: 20px;
+    }
+    #col_right_DE_A h4{
+        font-size: 12px;
+    }
+    #col_right_DE_A h5{
+        font-size: 12px;
+    }
+    #text_com{
+        font-size: 12px;
+    }
+    #send_pm h3{
+        font-size: 12px;
+    }
+    #send_pm a{
+        font-size: 10px;
+        padding:5px 14px ;
+    }
+    #nzarat ul li p{
+        font-size: 12px;
+    }
+    #label{
+        font-size: 12px;
+    }
+    #part_sefaresh div{
+        margin: -5px;
+        font-size: 12px;
+    }
+    #col_right_DE_A ul li{
+        font-size: 11px;
+    }
+    #col_right_DE_A p{
+        font-size: 12px;
+    }
+    #col_left_DE_A #G-img img{
+        height: 80px;
+    }
+    #col_left_DE_A #F_img{
+        width: 175px;
+        height: 200px;
+    }
+    #col_left_DE_A{
+        width: 100%;
+        height: 300px;
+    }
+    #col_right_DE_A{
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        height: auto;
+    }
+}
+@media all and (max-width: 1100px)and (min-width: 450px) {
+    #col_left_DE_A #G-img img{
+        width:180px!important; ;
+        height: 200px;
+    }
+    #col_left_DE_A{
+        width: 100%;
+        height: 620px;
+    }
+    #name_P{
+        font-size: 20px;
+    }
+    #col_right_DE_A{
+        width: 100%;
+        height: auto;
+    }
+}

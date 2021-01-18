@@ -1,0 +1,16 @@
+.container_S{
+    width: 100%;
+}
+.row_S{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.ul{
+    margin:0 ;
+    padding:0 ;
+}

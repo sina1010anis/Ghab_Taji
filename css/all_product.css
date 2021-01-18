@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'IRANS';
+    src: url(../font/IRANSansWeb.ttf);
+}
+
+span, p {
+    font-family: 'IRANS';
+}
+.copy_text{
+    font-size: 15px;
+    text-align: center;
+}
+#name_PS {
+    float: left;
+    font-size: 15px;
+}
+
+#price_PS {
+    float: right;
+    font-size: 15px;
+}
+
+#need_banner_1 {
+    width: 100%;
+    height: 250px;
+    float: right;
+    margin-top: 20px;
+    background-image: linear-gradient(to left, #2972b9, #27b6e1);
+}
+
+#need_banner_2 {
+    width: 100%;
+    height: 250px;
+    float: right;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #116792, #18a1e2);
+}
+
+#banner_1 {
+    width: 100%;
+    height: 100%;
+    max-width: 1365px;
+    margin: auto;
+    background-position: center;
+    background-image: url("../img/banner_1_n.jpg");
+    background-size: 100% 100%;
+}
+
+#need_banner_3 {
+    width: 100%;
+    height: 250px;
+    float: right;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #78a7f8, #526fb6);
+}
+
+#banner_3 {
+    width: 100%;
+    height: 100%;
+    max-width: 1365px;
+    margin: auto;
+    background-position: center;
+    background-image: url("../img/banner_3_n.jpg");
+    background-size: 100% 100%;
+}
+
+.owl-next span {
+    position: absolute;
+    font-size: 100px;
+    top: 43px;
+    color: #000000;
+    right: 0;
+}
+
+.owl-prev span {
+    display: none;
+}
+
+#product_top {
+    width: 100%;
+    height: 250px;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+#product_top > i {
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    top: 50%;
+    font-size: 40px;
+    z-index: 50000;
+}
+
+#product_top li {
+    width: 200px;
+    height: 100%;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    float: right;
+    border-radius: 5px;
+
+}
+
+#product_top li:hover {
+    box-shadow: #737373 1px 1px 10px;
+}
+
+#hover {
+    width: 100%;
+    height: 100%;
+    background-color: #2f2f2f;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#hover a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'IRANS';
+    margin-top: 10%;
+    padding: 10px 0;
+}
+
+#hover a:nth-child(1) {
+    background-color: #ffa100;
+    border-radius: 100px;
+}
+
+#hover a:nth-child(2) {
+    background-color: #003eff;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+#product_top li:hover #hover {
+    opacity: 0.8;
+}
+
+#banner_2 {
+    max-width: 1365px;
+    margin: auto;
+    background-image: url("../img/banner_2_n.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 250px;
+    background-color: #7a804f;
+}
+
+#name_P {
+    float: right;
+}
+
+#product_A img {
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+}
+
+#product_B img {
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+}
+
+#TB_S {
+    width: 100%;
+    height: 276px;
+    float: right;
+    margin: 20px auto;
+}
+
+#TB {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+#TB img {
+    border-radius: 10px;
+    border: #a8a8a8 1px solid;
+}
+
+@media all and (max-width: 450px) {
+    .copy_text{
+        font-size: 10px;
+    }
+
+#name_PS {
+    font-size: 7px;
+}
+
+#price_PS {
+    font-size: 7px;
+}
+
+#need_banner_3 {
+    margin-top: 9px;
+}
+
+#product_top {
+    top: 5px;
+}
+
+#need_banner_1 {
+    margin-top: 5px;
+}
+
+#need_banner_2 {
+    margin-top: 7px;
+}
+
+#need_banner_3 {
+    height: 80px;
+}
+
+#hover a {
+    font-size: 8px;
+    padding: 5px 0;
+}
+
+#need_banner_2 {
+    height: 80px;
+}
+
+#need_banner_1 {
+    height: 80px;
+}
+
+.sl65 p {
+    margin: 0;
+    padding: 0;
+}
+
+.sl65 span, .sl65 p {
+    font-size: 10px;
+}
+
+#TB_S {
+    height: 120px;
+}
+
+#TB {
+    width: 100%;
+}
+
+.owl-next span {
+    position: absolute;
+    font-size: 40px;
+    top: 9px;
+    color: #000000;
+    right: 0;
+}
+
+#name_P {
+    font-size: 7px;
+}
+
+#code_P {
+    font-size: 7px;
+}
+
+#price_P {
+    font-size: 7px;
+    margin: 1px 0;
+    padding: 0
+}
+
+#product_A img {
+    height: 57%;
+}
+
+#product_B img {
+    height: 57%;
+}
+
+#product_top {
+    height: 90px;
+}
+
+#product_top li {
+    width: 74px;
+}
+
+#banner_1 {
+    height: 100%;
+}
+
+#banner_2 {
+    height: 100%;
+}
+
+}
+
+@media all and (max-width: 1024px)and (min-width: 500px) {
+    .copy_text{
+        font-size: 10px;
+    }
+    #name_PS {
+        font-size: 7px;
+    }
+
+    #TB {
+        width: 100%;
+    }
+
+    #product_top li {
+        width: 150px;
+    }
+
+    #name_P {
+        font-size: 12px;
+    }
+
+    #code_P {
+        font-size: 12px;
+    }
+
+    #price_P {
+        font-size: 12px;
+        margin: 1px 0;
+        padding: 0
+    }
+
+    #need_banner_2 {
+        height: 150px;
+    }
+
+    #need_banner_1 {
+        height: 150px;
+    }
+
+    #need_banner_3 {
+        height: 150px;
+    }
+
+    #banner_1 {
+        height: 100%;
+    }
+
+    #banner_2 {
+        height: 100%;
+    }
+
+    #banner_3 {
+        height: 100%;
+    }
+
+    #product_top {
+        height: 147px;
+    }
+
+    .sl65 span, .sl65 p {
+        font-size: 10px;
+    }
+}

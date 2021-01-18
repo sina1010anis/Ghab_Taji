@@ -1,0 +1,224 @@
+@font-face{
+    font-family: 'IRANS';
+    src: url(../font/IRANSansWeb.ttf);
+}
+#model{
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    background-image: linear-gradient(to left ,#519dff , #57bfff);
+}
+
+.fa-caret-down , .fa-clock{
+    transition: 0.5s;
+    color: black!important;
+}
+.ul_D > li .view_my_product p{
+    text-align: right;
+}
+.ul_D > li ol li{
+    text-align: right;
+}
+.ul_D > li .view_my_product{
+    width: 100%;
+    background-color: #f1f1f1;
+    height: auto;
+    margin-top: 100px;
+
+}
+.ul_D > li > .btn_view_product:hover .fa-caret-down , .ul_D > li > .btn_date_product:hover .fa-caret-down, .ul_D > li > .btn_code_product:hover .fa-caret-down, .ul_D > li > .btn_status_product:hover .fa-caret-down, .ul_D > li > .btn_buy_product:hover .fa-caret-down{
+    transform: rotate(180deg);
+}
+.ul_D > li > .btn_view_product:hover{
+    background-color: #dbdbdb;
+}
+.ul_D {
+    margin: 0;
+    padding: 0;
+}
+.ul_D > li{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: silver 1px solid;
+    box-sizing:border-box;
+    margin-top: 5px;
+}
+#name_product p , #date_product p, #code_product p , #status_product p, #buy_product p{
+    color: whitesmoke;
+    text-align: center;
+}
+#edit_pass{
+    height: 500px!important;
+ }
+#name_product , #date_product , #code_product, #status_product , #buy_product{
+    display: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: #8b8b8b 1px solid;
+    padding:0 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: #92b7ec;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1000;
+}
+.ul_D li > .btn_view_product , .ul_D li > .btn_date_product , .ul_D li > .btn_code_product, .ul_D li > .btn_status_product , .ul_D li > .btn_buy_product{
+    float: right;
+    cursor: pointer;
+    background-color: #e4e4e4;
+    margin-right: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 31px;
+}
+#edit_pass{
+    border: silver 1px solid;
+    border-radius: 10px;
+    height: 415px;
+}
+#edit_pass p{
+    font-family: 'IRANS';
+
+}
+#edit_pass p i{
+    color: red;
+}
+#model h2{
+    color: white;
+    font-family: 'IRANS';
+}
+#form{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    background-color: white;
+    border: #9b9b9b 1px solid;
+    border-radius: 10px;
+}
+#form p{
+    font-family: IRANSansWeb;
+    color: #ff7970;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+#form .input{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: silver 1px solid;
+    border-radius: 5px;
+    margin-top:5px ;
+    outline: none;
+    text-align: right;
+    font-family: 'IRANS';
+}
+#form .input_btn{
+    width: 100%;
+    margin: 10px auto;
+    height: 30px;
+    background-color: #57bfff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'IRANS';
+    color: whitesmoke;
+    outline: none;
+}
+#error  , #ok{
+    margin-top:10px ;
+    width: 250px;
+    height: 205px;
+    background-color: white;
+    border: red 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    display: none;
+    left: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    transform: translate(-50% , -50%);
+}
+#ok{
+    border: #2eff00 1px solid!important;
+}
+.fa-times-circle, .fa-check-circle {
+    font-size: 50px;
+    color: #ff6a6a;
+}
+.fa-check-circle{
+    color: #2eff00;
+}
+#error h3 , #ok h3{
+    font-family: 'IRANS';
+    color: #595959;
+    font-size: 17px;
+}
+#error #btn_err ,#ok #btn_err{
+    background-color: #ff6a6a;
+    font-family: 'IRANS';
+    font-size: 18px;
+    margin: 0 80px;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#ok #btn_err{
+    background-color: #2eff00 !important;
+}
+#btn_err:hover {
+    box-shadow: silver 1px 1px 5px;
+}
+@media all and (max-width: 480px){
+    #edit_pass p{
+        font-size: 12px;
+
+    }
+    #form{
+        width: 230px;
+    }
+    #model{
+        padding: 0;
+    }
+    #form .input{
+        font-size: 13px;
+    }
+    #model h2{
+        font-size: 15px;
+    }
+    #edit_pass{
+        width: 95%;
+        margin: 0;
+        height: 296px;
+        background: white;
+        box-sizing: border-box;
+        border: silver 1px solid;
+        padding: 5px;
+        position: absolute;
+
+    }
+    .ul_D li > .btn_view_product , .ul_D li > .btn_date_product , .ul_D li > .btn_code_product, .ul_D li > .btn_status_product , .ul_D li > .btn_buy_product{
+        padding: 3px 2px;
+        font-size: 8px!important;
+        margin-top: 0px;
+    }
+    #name_product , #date_product , #code_product, #status_product , #buy_product{
+        height: auto!important;
+    }
+    #name_product p , #date_product p, #code_product p , #status_product p, #buy_product p{
+        font-size: 8px;
+    }
+    .ul_D li{height: 50px}
+}

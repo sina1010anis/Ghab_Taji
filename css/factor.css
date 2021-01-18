@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'IRANS';
+    src: url(../font/IRANSansWeb.ttf);
+}
+
+#btn_buy_fd {
+    margin-top: 3px;
+    font-family: 'IRANS';
+    color: #676767;
+    text-decoration: none;
+    border-radius: 100px;
+    text-align: right;
+    float: right;
+    padding: 5px 20px;
+    background-color: #5dfe49;
+    width: auto;
+}
+
+.eta {
+    margin-top: 5px;
+    text-align: right;
+    color: #ff6856;
+}
+
+.lab {
+    text-align: right;
+    display: block;
+    direction: rtl;
+    font-family: 'IRANS';
+    margin: 17px 0 0 0;
+    padding: 5px 0 0 0;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.font {
+    font-family: 'IRANS';
+    text-align: center;
+}
+
+.font_C {
+    font-family: 'IRANS';
+    color: #7a7a7a;
+    font-size: 15px;
+    text-align: center;
+}
+
+.font_CA {
+    font-family: 'IRANS';
+    color: #7a7a7a;
+    font-size: 15px;
+    text-align: center;
+}
+
+.back {
+    background-color: #d6ffcb;
+}
+
+#user {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#e_user > h5 {
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'IRANS';
+    color: #7c7c7c;
+    z-index: 1000000000;
+}
+
+.h5_2 {
+    position: absolute;
+    text-align: center;
+    font-family: 'IRANS';
+    color: #ffffff;
+    z-index: 1000000000;
+}
+
+#e_user {
+    width: 70%;
+    background-color: white;
+    float: left;
+    border: #d8d8d8 1px solid;
+    height: 355px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#e_user::after {
+    width: 100%;
+    z-index: 1;
+    height: 32px;
+    top: 0;
+    left: 0;
+    content: '';
+    background-color: #76ff49;
+    position: absolute;
+}
+
+#total_price {
+    padding: 0  15px;
+    box-sizing: border-box;
+    width: 30%;
+    float: right;
+    position: relative;
+    border: #d8d8d8 1px solid;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#total_price::after {
+    width: 100%;
+    z-index: 1;
+    height: 32px;
+    top: 0;
+    left: 0;
+    content: '';
+    background-color: #ff797d;
+    position: absolute;
+}
+
+#col_left_F {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#col_right_F {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.input {
+    width: 100%;
+    margin-top: 10px;
+    direction: rtl;
+    font-family: 'IRANS';
+}
+.h5{
+    z-index: 10!important;
+}
+.p {
+    font-size: 12px;
+    font-family: 'IRANS';
+}
+.p_CC{
+    margin-bottom: 10px!important;
+}
+.p_C {
+    margin:0 ;
+    color: #5e5e5e;
+    font-size: 12px;
+    font-family: 'IRANS';
+}
+
+.border {
+    outline: none;
+    border-bottom: 1px black solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#need_pm{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: none;
+    background-color: #6a6a6a;
+    opacity: .5;
+    z-index: 10000000;
+}
+#input_off {
+    border-radius: 200px;
+    border: none;
+    background-color: #8a8a8a;
+    outline: none;
+    color: white;
+}
+#btn_off{
+    border-radius: 200px;
+    border: none;
+    background-color: #FF797D;
+    outline: none;
+    color: white;
+    z-index: 100000000;
+}
+.h5{
+    color: white;
+}
+#err_code_off , #err_code_off_2{
+    position: fixed;
+    width: 300px;
+    height: 140px;
+    display: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #ffffff;
+    border: #FF797D 1px solid;
+    z-index: 100000000;
+}
+#ok{
+    position: fixed;
+    width: 300px;
+    height: 140px;
+    display: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #ffffff;
+    border: #84ff74 1px solid;
+    z-index: 100000000;
+}
+#ok_send{
+    position: fixed;
+    width: 300px;
+    height: 160px;
+    padding: 10px;
+    display: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #ffffff;
+    border: #ffb951 1px solid;
+    z-index: 10000000000;
+}
+.fa-check-circle {
+    font-size: 50px;
+    color: #84ff74;
+}
+.fa-credit-card{
+    font-size: 50px;
+    color: #ffb951;
+}
+.fa-times-circle{
+    font-size: 50px;
+    color: #FF797D;
+}
+#ok h3{
+    font-family: 'IRANS';
+    font-size: 15px;
+    color: #3d3d3d;
+}
+#ok_send h3{
+    font-family: 'IRANS';
+    font-size: 15px;
+    color: #3d3d3d;
+}
+#btn_err_4{
+    background-color: #ffb951;
+    margin-left: 100px;
+    padding: 3px 0;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'IRANS';
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 100px;
+}
+#btn_err_4:hover{
+    box-shadow: silver 1px 1px 5px;
+}
+#err_code_off h3 , #err_code_off_2 h3{
+    font-family: 'IRANS';
+    font-size: 15px;
+    color: #3d3d3d;
+}
+#btn_err_3{
+    background-color: #80ff62;
+    margin-left: 100px;
+    padding: 3px 0;
+    border-radius: 10px;
+    color: white;
+    font-family: 'IRANS';
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 100px;
+}
+#btn_err_3:hover{
+    box-shadow: silver 1px 1px 5px;
+}
+#btn_err , #btn_err_2{
+    background-color: #FF797D;
+    margin-left: 100px;
+    padding: 3px 0;
+    border-radius: 10px;
+    color: white;
+    font-family: 'IRANS';
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 100px;
+}
+#btn_err:hover , #btn_err_2:hover{
+    box-shadow: silver 1px 1px 5px;
+}
+@media all and (max-width: 450px) {
+    .eta {
+        font-size: 9px;
+        margin-top: 15px;
+    }
+
+    #btn_buy_fd {
+        font-size: 12px;
+    }
+
+    .font {
+        font-size: 12px;
+    }
+
+    .font_CA {
+        font-size: 8px;
+    }
+
+    #e_user {
+        width: 100%;
+    }
+
+    #total_price {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1100px)and (min-width: 450px) {
+    #e_user {
+        width: 100%;
+    }
+
+    #total_price {
+        width: 100%;
+    }
+}

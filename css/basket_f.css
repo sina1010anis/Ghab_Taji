@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'IRANS';
+    src: url("../font/IRANSansWeb.ttf");
+}
+#view_basket_f ul li{
+    width: 100%;
+    height: 170px;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: silver 1px solid;
+    list-style: none;
+}
+#view_basket_f ul li img{
+    width: 160px;
+    height: 100%;
+    margin-right: 0;
+}
+#view_basket_f ul li span{
+    position: relative;
+    font-family: 'IRANS';
+    top: -70px;
+    text-align: right;
+    margin-left: 50px;
+    direction: rtl;
+}
+.ul{
+    margin:0 ;
+    padding: 0;
+}
+#edit_pass{
+    overflow-y: scroll;
+}
+#sum_number_S {
+    position: relative;
+    top: 10px;
+    border-radius: 100px;
+    font-family: 'IRANS';
+    font-size: 15px;
+    background-color: #72d0fe;
+    padding: 2px 10px;
+    color: #3a3a3a;
+}
+#sum_price_S{
+    position: relative;
+    top: 10px;
+    border-radius: 100px;
+    font-family: 'IRANS';
+    font-size: 15px;
+    background-color: #7afe7e;
+    padding: 2px 10px;
+    color: #3a3a3a;
+}
+#btn_buy_f{
+    position: relative;
+    float: right;
+}
+#number_f span{
+    top: 0!important;
+}
+#price_f span{
+    top: 0!important;
+}
+#buy_S{
+    position: relative;
+    top: 10px;
+    border-radius: 100px;
+    font-family: 'IRANS';
+    font-size: 15px;
+    background-color: #cbcbcb;
+    padding: 2px 10px;
+    color: #3a3a3a;
+    transition: 0.5s;
+}
+#buy_S:hover{
+    background-color: #ff8489;
+}
+#buy_S{
+    cursor: pointer;
+}
+@media all and (max-width: 450px){
+    #buy_S{
+        top: 305px;
+    }
+    #sum_number_S {
+        top: 305px;
+        font-size: 11px;
+    }
+    #sum_price_S{
+        top: 305px;
+        font-size: 11px;
+    }
+    .fa-trash-alt{
+        line-height: 50px!important;
+        font-size: 8px!important;
+    }
+    #view_basket_f ul li img{
+        width: 80px;
+    }
+    #view_basket_f ul li{
+        height: 100px;
+    }
+    #view_basket_f ul li span{
+        font-size: 8px;
+        top: -40px;
+        margin-left: 8px;
+    }
+}

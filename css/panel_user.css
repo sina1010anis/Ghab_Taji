@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'IRANS';
+    src: url(../font/IRANSansWeb.ttf);
+}
+#col_all{
+    width: 100%;
+    height: 500px;
+}
+#col_menu{
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    height:100%;
+    float: right;
+    background-color: #519dff;
+    display: inline-block;
+}
+#col_menu h2{
+    text-align: right;
+    color: white;
+    font-family: 'IRANS';
+}
+#col_menu li{
+    padding: 10px 0;
+    list-style: none;
+    text-align: right;
+}
+#col_menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'IRANS';
+    display: block;
+    transition: 0.5s;
+}
+#col_menu a:hover{
+    margin-right: 15px;
+    color: #eeeeee;
+}
+#col_panel{
+    width: 70%;
+    padding:0 10px;
+    box-sizing: border-box;
+    height: 100%;
+    float: left;
+    display: inline-block;
+}
+@media all and (max-width: 800px){
+    #col_menu li{
+        padding: 7px 0;
+    }
+    #col_panel{
+        width:100%;
+    }
+    #col_menu a{
+        font-size: 12px;
+    }
+    #col_menu h2{
+        font-size: 15px;
+    }
+    #col_menu{
+        width: 100%;
+        box-sizing: border-box;
+        height: 300px;
+    }
+}
+@media all and (max-width: 1024px)and (min-width: 500px) {
+    #col_menu a{
+        font-size: 14px;
+    }
+}

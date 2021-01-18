@@ -1,0 +1,8 @@
+jquery.jcarousellite
+برای ساخت اسلایدر توضیحات محصولات
+
+
+
+
+jquery.cycle.all
+برای ساخت اسلادر اول سایت

@@ -1,0 +1,10 @@
+#all{
+    width: 100%;
+    height: 500px;
+    margin-top: 651px;
+    background-color: red;
+}
+
+@media all and (max-width: 450px){
+
+}

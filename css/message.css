@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'IRANS';
+    src: url(../font/IRANSansWeb.ttf);
+}
+#model{
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    background-image: linear-gradient(to left ,#519dff , #57bfff);
+}
+#edit_pass{
+    overflow: hidden;
+    border: silver 1px solid;
+    border-radius: 10px;
+    height: auto;
+}
+#edit_pass p{
+    font-family: 'IRANS';
+
+}
+#edit_pass p i{
+    color: red;
+}
+#model h2{
+    color: white;
+    font-family: 'IRANS';
+}
+#top{
+    background-color: #e6e6e6;
+}
+.table-hover{
+    font-family: 'IRANS';
+    font-size: 15px;
+}
+.table-hover .tr_t{
+    font-size: 14px;
+    color: #6e6e6e;
+    direction: rtl;
+    text-align: center;
+}
+@media all and (max-width: 450px){
+    .table-hover{
+        font-size: 12px;
+    }
+    .table-hover .tr_t{
+        font-size: 11px;
+    }
+    #edit_pass p{
+        font-size: 12px;
+
+    }
+    #form{
+        width: 230px;
+    }
+    #model{
+        padding: 0;
+    }
+    #form .input{
+        font-size: 13px;
+    }
+    #model h2{
+        font-size: 15px;
+        padding: 10px;
+    }
+    #edit_pass{
+        width: 95%;
+        margin: 0;
+        height: auto;
+        background: white;
+        box-sizing: border-box;
+        border: silver 1px solid;
+        padding: 5px;
+        position: absolute;
+
+    }
+}

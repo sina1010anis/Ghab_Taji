@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'IRANS';
+    src: url("../font/IRANSansWeb.ttf");
+}
+li{
+    list-style: none;
+}
+#pm_user{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 300px;
+    display: block;
+    margin: 5px;
+    border-radius: 20px 10px 10px 10px;
+    background-color: #ffffff;
+    border: #60fe57 1.5px solid;
+}
+#admin{
+    width: 25%;
+    float:right;
+    position: relative;
+}
+#pm_admin{
+    padding: 5px;
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 10px 20px 10px 10px;
+    background-color: #ffffff;
+    border: #00f3fe 1.5px solid;
+}
+.hr{
+    margin: 2px;
+    padding: 2px;
+    color: black;
+}
+#pm_user p{
+    font-family: 'IRANS';
+    direction:rtl ;
+}
+#pm_user #name_user{
+    font-size: 15px;
+    text-align: left;
+}
+
+#pm_admin p{
+    font-family: 'IRANS';
+    direction:rtl ;
+}
+#pm_admin #name_user{
+    font-size: 15px;
+    text-align: right;
+}
+#pm_admin #date_user{
+    float: left;
+}
+#id_pm{
+    font-size: 12px;
+}
+#send_pm{margin-top: 25px;width: 100%;text-align: center}
+#text_user{
+    float: right;
+    direction: rtl;
+    text-align: right;
+}
+.font{
+    font-family: 'IRANS';
+}
+.font_s{
+    font-family: 'IRANS';
+    color: #858585;
+}
+#chat{
+    width: 100%;
+}
+.fa-times-circle{
+    float: right;
+    color: red;
+    transition:0.5s;
+    cursor: pointer;
+}
+.fa-times-circle:hover{
+    transform: rotate(180deg);
+}
+#chat textarea{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    max-height: 200px;
+    min-width:100% ;
+    min-height:30px ;
+    text-align: right;
+    direction: rtl;
+    max-width: 100%;
+    background-color: #f0f0f0;
+}
+#chat div{
+    cursor: pointer;
+    padding: 5px 25px;
+    background-color: #519dff;
+    color: #FFFFFF;
+    float: right;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    overflow: hidden;
+}
+#chat div::before{
+    content: "";
+    width:0 ;
+    transition: 0.5s;
+    height: 100%;
+    background-color: #68b1ff;
+    top:0;
+    right: 0;
+    border-radius: 10px;
+    position: absolute;
+}
+#chat div:hover::before{
+    content: "";
+    z-index: -1;
+    width:100% ;
+}
+#ok_P{
+    width: 400px;
+    height: 200px;
+    z-index: 100000000000;
+    display: none;
+    background-color: #FFFFFF;
+    border: #00fe37 1px solid;
+    border-radius: 10px;
+    position: fixed;
+    padding: 15px;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#ok_P h4{
+    font-family: 'IRANS';
+}
+#ok_P .fa-check-circle{
+    font-size: 50px;
+    color: #00fe37;
+}
+#ok_P #btn_err{
+    padding: 5px 25px;
+    background-color: #00fe37;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'IRANS';
+    border-radius: 5px;
+    color: #464646;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1000000000;
+}
+#btn_new_pm{
+    color: white;
+    position: relative;
+    top:25px;
+    background-color: #3cd82f;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 5px 20px;
+    line-height: 30px;transition: 0.5s;
+}
+#btn_new_pm:hover{
+    padding: 6px 22px;
+}
+#btn_new_pm:hover{
+    margin-right: 25px;
+}
+#ok_P #btn_err::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+    width: 10%;
+    height: 100%;
+    background-color: #9dfe8e;
+}
+#ok_P #btn_err:hover::after{
+    z-index: -1;
+    width: 100%;
+}
+.bu{
+    background-color: #d8faff;
+}
+.ge{
+    background-color: #c3ffc5;
+}
+#need_pm{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #434343;
+    opacity: 0.5;
+    top:0;
+    left:0;
+}
+#need_send_pm{
+    width: 500px;
+    z-index: 100000000;
+    display: none;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.54);
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #ffffff;
+}
+@media all and (max-width: 450px){
+    #btn_new_pm:hover{
+        padding: 16.5px 22px;
+    }
+    #btn_new_pm span{
+        display: none;
+    }
+    #btn_new_pm{
+        line-height: 50px;
+        padding: 15.5px 20px;
+        border-radius: 50%;
+    }
+    #ok_P #btn_err{
+        margin-left: 81px;
+        margin-right: 81px;
+    }
+    #ok_P h4{
+        font-size: 12px;
+    }
+    #ok_P{
+        width: 263px;
+        height: 160px;
+    }
+    .font{
+        font-family: 'IRANS';
+        font-size: 13px;
+    }
+    .font_s{
+        font-family: 'IRANS';
+        color: #858585;
+        font-size: 13px;
+    }
+    #need_send_pm{
+        width: 100%;
+    }
+}
